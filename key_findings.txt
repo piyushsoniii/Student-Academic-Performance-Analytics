@@ -1,0 +1,27 @@
+PROJECT DATASET CHECK
+---------------------
+Rows: 500
+Columns: 11
+Missing Attendance_Percent: 10
+Duplicate Student_ID values: 0
+Subject marks outside 0-100: 0
+Median attendance used for imputation: 78.20%
+
+KEY FINDINGS
+------------
+Department means (average of Python, Maths and Physics):
+Mechanical 70.28
+CSE 69.85
+ECE 69.64
+Civil 69.47
+Electrical 69.45
+
+Top average: STU0007 (Mechanical), 90.33
+Students below 40% average: 0
+Study-hours / average-marks Pearson correlation: 0.035
+Internet access mean: No = 69.63; Yes = 69.77
+Python marks: median 73; sample SD 13.53; Q1 63; Q3 82; IQR 19
+Potential IQR outliers: 2 (STU0055 and STU0144, each 34 marks)
+
+NOTE: These are descriptive results from the supplied synthetic dataset.
+Correlation does not prove causation.
